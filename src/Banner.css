@@ -1,0 +1,55 @@
+.banner{
+    
+    position: relative;
+   
+    /* background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Black_flag.svg/1200px-Black_flag.svg.png); */
+    
+    height: 70vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: contain;
+    color: white;
+}
+.banner-content{
+    /* color: black; */
+    width: 60%;
+    height: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.buttons{
+    margin-top: 20px;
+}
+.button{
+    border: 2px solid white;
+    color: white;
+    background: #523838a3;
+    width: 100px;
+    height: 2.2rem;
+    font-size: larger;
+    margin-right: 10px;
+    /* border: none; */
+    cursor: pointer;
+    
+}
+.button:hover{
+    border: 2px solid black;
+    background: white;
+    color: black;
+}
+.desc{
+margin: 20px;
+}
+@media only screen and (max-width:600px){
+    h1{
+        font-size: 20px;
+    }
+    .banner-content{
+        width: 100%;
+    }
+}

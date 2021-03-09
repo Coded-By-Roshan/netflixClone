@@ -1,0 +1,28 @@
+.row_poster{
+    cursor: pointer;
+    display: inline-block;
+    height: 380px;
+    width: 300px;
+    object-fit: contain;
+    margin: 15px;
+}
+.row_poster:hover{
+transform: scale(1.08);
+opacity: 1;
+}
+.row{
+    color: white;
+}
+.posters{
+    display: flex;
+    overflow-x: scroll;
+    overflow-y:hidden ;
+    width: 100%;
+}
+.posters::-webkit-scrollbar{
+    display: none;
+}
+.title{
+    text-align: center;
+    margin:  10px 0;
+}

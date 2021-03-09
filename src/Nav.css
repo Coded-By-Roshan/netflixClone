@@ -1,0 +1,36 @@
+.nav{
+    top: 0;
+    height: 30px;
+    position: fixed;
+    width: 100%;
+   
+    z-index: 1;
+    padding: 20px;
+}
+.nav-black{
+    background: black;
+}
+.banner-title{
+    font-size: 40px;
+}
+
+.nav-contents{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-logo{
+    top: 5px;
+    position: fixed;
+    width: 100px;
+    object-fit: contain;
+    left: 20px;
+    cursor: pointer;
+}
+.signin-logo{
+    object-fit: contain;
+    width: 100px;
+    height: 41px;
+    right: 10px;
+    position: fixed;
+    cursor: pointer;
+}
